@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: rgb(200, 200, 200);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.cv-container {
+  display: flex;
+  height: fit-content;
+  margin: 0 auto;
+}
+
+.main-details-container {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 700px;
+  background-color: white;
+}
+
+.main-details-container .top-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.main-details-container .top-info-container .title-container h3,
+h2 {
+  text-transform: uppercase;
+}
+
+.main-details-container .top-info-container .title-container h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--color-text-gray);
+}

@@ -1,0 +1,27 @@
+.sidebar-section {
+  padding: 8px;
+  margin-bottom: 24px;
+}
+
+.sidebar-section h2,
+span {
+  color: rgb(0, 0, 0);
+}
+
+.sidebar-section h2 {
+  text-transform: uppercase;
+  font-size: medium;
+  color: rgb(255, 208, 0);
+}
+
+.sidebar-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sidebar-section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}

@@ -1,0 +1,24 @@
+.sidebar {
+  padding: 24px;
+  background: rgb(124, 119, 119);
+  background: linear-gradient(
+    0deg,
+    rgba(124, 119, 119, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.image-container {
+  width: "80%";
+  height: fit-content;
+}
+
+.image-container img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+}

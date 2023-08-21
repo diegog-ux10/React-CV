@@ -1,0 +1,31 @@
+.description-container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 12px 0;
+  gap: 24px;
+}
+
+.description-container .years-container {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.description-container .years-container span {
+  color: var(--color-text-gray);
+}
+
+.description-container .details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.description-container .details-container h4 {
+  text-transform: uppercase;
+}
+
+.description-container .details-container p,
+.description-container .details-container span {
+  color: var(--color-text-gray);
+}
